@@ -1,0 +1,19 @@
+// MES ================================
+Mes = 
+//
+UPPER(
+    FORMAT(
+        dCalendario[data],"mmm"))
+
+// MES NUMERO ===============================
+MesNo = 
+//
+MONTH(
+    dCalendario[data])
+
+// DIA
+diaStr = 
+//
+DAY(
+    dCalendario[data]
+)
