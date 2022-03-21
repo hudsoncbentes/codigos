@@ -17,3 +17,23 @@ diaStr =
 DAY(
     dCalendario[data]
 )
+
+// 
+
+posto unid =  
+
+//NOME DO POSTO POR UNIDADE 
+
+SWITCH( 
+TRUE(), 
+CONTAINSSTRING(dPostos[posto],"p89"),"89", 
+CONTAINSSTRING(dPostos[posto],"tab4"),"IV", 
+CONTAINSSTRING(dPostos[posto],"pioxii"),"V", 
+CONTAINSSTRING(dPostos[posto],"economico"),"VI", 
+CONTAINSSTRING(dPostos[posto],"neropolis"),"VII", 
+CONTAINSSTRING(dPostos[posto],"tabocao10"),"X", 
+CONTAINSSTRING(dPostos[posto],"tab12"),"XII", 
+CONTAINSSTRING(dPostos[posto],"itaberai"),"XVI", 
+CONTAINSSTRING(dPostos[posto],"p52"),"52" 
+
+) 
